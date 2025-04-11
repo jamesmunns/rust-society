@@ -28,7 +28,7 @@ The following items are open questions that will need to be resolved before esta
 
 There are currently two ideas of how the proposed Rust Society would "relate" to the existing Rust Project and Rust Foundation entities.
 
-The *first* of these ideas would be to position the Rust Society as a responsibility of the Rust Project. This would entail establishing a T-Launching-Pad subteam of "Rust Society Governance", with people responsible for the Rust Society serving as members of this subteam.
+The *first* of these ideas would be to position the Rust Society as a responsibility of the Rust Project. This would entail establishing a T-Launching-Pad subteam for "Rust Society Governance", with people responsible for the Rust Society serving as members of this subteam.
 
 Under this proposal, only these "Society Project Representatives" would be members of the project, with the greater community of Society Members and Chapters not being considered Rust Project Members or Rust Project Teams.
 
