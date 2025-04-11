@@ -1,4 +1,4 @@
-#set page(paper: "a4", columns: 2, margin: 1cm)
+ #set page(paper: "a4", columns: 2, margin: 1cm)
 
 = Rust Society Report - 002
 #line(length: 100%)
@@ -60,7 +60,9 @@ It is unclear what steps, including approval/buy-in from the Rust Project and Ru
 
 This unclarity leads to a challenging "catch 22": we cannot begin effectively organizing potential interested groups without buy-in, and it is difficult to obtain buy-in without knowing the scope of potential interested groups.
 
+// -----------------------------------------------------------------------------
 #pagebreak()
+// -----------------------------------------------------------------------------
 
 = A Vision for the Rust Society
 #line(length: 100%)
@@ -70,23 +72,60 @@ The following is an attempt to establish a coherent vision of what the Rust Soci
 == The Rust Society Charter
 #line(length: 100%)
 
-The role of the Rust Society is to provide a home for users of the Rust Language and Toolchain to self-organize, in order to pursue the goals of increasing Rust's reach and effectiveness in various technical and social domains, and to foster collaboration in the pursuit of these goals.
+The role of the Rust Society is to provide a home for *users of the Rust Language and Toolchain to self-organize*, in order to pursue the goals of increasing Rust's reach and effectiveness in various technical and social domains, and to foster collaboration in the pursuit of these goals.
 
 // hmm
-Unlike the Rust Project, which is structured to facilitate the design, delivery, and maintenance of the Rust Language and Toolchain; or the Rust Foundation, which is structured to support the Rust Project and represent commercial Foundation Members; the Rust Society serves only as a container for groups it represents.
+Unlike the Rust Project, which is structured to facilitate the design, delivery, and maintenance of the Rust Language and Toolchain; or the Rust Foundation, which is structured to support the Rust Project and represent commercial Foundation Members; the Rust Society serves instead as a container for groups it represents.
 
-The Rust Society aims to serve as a *nucleation site* for members of the community, providing a place for groups of individuals and ideas to grow.
+The Rust Society aims to serve as a *nucleation site* for members of the community, providing a place for groups of individuals and ideas to collect and grow.
 
-The society achieves these goals by providing:
+Members of the Rust Society benefit from visibility and recognition of the society as a place to find interested and active individuals to collaborate with on common goals. This is achieved by the Rust Society providing:
 
-=== a low barrier for forming and dissolving groups
+=== A Consistent and Defined Structure
+#line(length: 100%)
 
-It's easy to form a new group, or subgroup
+The Rust Society is formed from a number of *Society Chapters*. Chapters are required to maintain:
 
-=== a minimally consistent structure for organization
+1. A defined landing page (e.g. website or GitHub Repo), containing or linking to the following items
+2. A documented and enforced code of conduct, consistent with the Rust Code of Conduct#footnote[https://www.rust-lang.org/policies/code-of-conduct]
+3. A listed contact point, such as a representative or mailing list address
+4. A written charter describing the goals and interests of the chapter, relevant to the usage or advancement of the Rust Language
+5. A public list of active members and projects
+6. A written process for joining the chapter as a member
 
-groups are expected to maintain a landing page, contact information
+These requirements are intended to make it easy for interested individuals to find and join a chapter, and for groups like the Rust Project to be able to contact these society chapters when relevant.
 
-=== discoverability of existing groups
+#colbreak()
+=== Low Barriers to Organizing
+#line(length: 100%)
 
-it should be easy for new people to find and join chapters, and it should be easy for the project to find chapters relevant to decisions they need
+Society chapters themselves should be trivial to establish, once the requirements listed above have been achieved. The Rust Society should provide a template for potential new charters to use. Once these required criteria items are met, a chapter should be recognized as established.
+
+Chapters may also decide to organize hierarchically, forming sub-chapters that exist within chapters with a wider charter, for example: a chapter focused on a specific architecture, under a broader "embedded" chapter.
+
+Chapters are also free to disband, or re-charter with a new set of members, at any time.
+
+=== Minimal Oversight of Chapters
+#line(length: 100%)
+
+The Rust Society Organizers are also responsible for maintaining a list of all active chapters, in order to aid discoverability.
+
+They will also be responsible for periodically (once or twice yearly) ensuring that chapters are still active and in good standing, and that the listed members of a chapter are still active. This ensures that inactive groups are noted as such, making room for new interested individuals.
+
+The Rust Society Organizers will be regularly elected by active chapters, in order to oversee the growth and oversight necessary for individual chapters.
+
+=== Relation to the Rust Project
+#line(length: 100%)
+
+Chapters and members of the Rust Society are not considered a part of the Rust Project.
+
+However, it is expected that the Project may choose to recognize chapters, or members of a chapter, for membership in "Ping Groups" - used to notify and reach out to interested parties; or as a set of individuals to consider for ephemeral project groups, working towards goals such as support for specific language features or target support and maintenance.
+
+=== Relation to the Rust Foundation
+#line(length: 100%)
+
+Chapters and members of the Rust Society are not considered a part of the Rust Foundation.
+
+However, the Foundation is expected to allow usage of the Rust name as part of the name of chapters, for example, "The Embedded Devices Rust Society Chapter".
+
+The Foundation may also consider membership in a relevant criteria as a condition of benefits such as travel, development, or Project Goal grants.
